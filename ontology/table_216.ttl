@@ -1,0 +1,15 @@
+@prefix kr: <urn:kr:2025:table-2.1.6:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+kr:ontology a owl:Ontology .
+kr:Footnote a owl:Class .
+kr:ConditionalMinimum a owl:Class ; rdfs:subClassOf kr:Footnote .
+kr:JointLimit a owl:Class ; rdfs:subClassOf kr:Footnote .
+kr:ChemicalCell a owl:Class .
+kr:mentions a owl:ObjectProperty .
+kr:number a owl:AnnotationProperty .
+kr:predicate a owl:AnnotationProperty .
+kr:note4 a owl:NamedIndividual, kr:JointLimit ; kr:number 4 ; kr:predicate "joint-carbon-ok" .
+kr:note6 a owl:NamedIndividual, kr:ConditionalMinimum ; kr:number 6 ; kr:predicate "note-six-min" .
+kr:note7 a owl:NamedIndividual, kr:ConditionalMinimum ; kr:number 7 ; kr:predicate "note-seven-min" .

@@ -1,0 +1,22 @@
+@prefix kr: <urn:kr:rules:2025:part2:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+kr:ontology a owl:Ontology .
+kr:Footnote a owl:Class .
+kr:BindingTable a owl:Class .
+kr:OptionalUpperLimitNote a owl:Class ;
+    rdfs:subClassOf kr:Footnote .
+kr:hasFootnote a owl:ObjectProperty .
+kr:printedPage a owl:AnnotationProperty .
+kr:sourcePdf a owl:AnnotationProperty .
+kr:smtFunction a owl:AnnotationProperty .
+
+kr:table_2_1_88 a owl:NamedIndividual, kr:BindingTable ;
+    kr:hasFootnote kr:table_2_1_88_note_2 ;
+    kr:printedPage 90 ;
+    kr:sourcePdf <https://www.krs.co.kr/KRRules/KRRules2025/data/data_part/korean/2%ED%8E%B8_2025.pdf> .
+
+kr:table_2_1_88_note_2 a owl:NamedIndividual, kr:OptionalUpperLimitNote ;
+    kr:smtFunction "max-requestable-upper-mpa" .

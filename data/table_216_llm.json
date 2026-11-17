@@ -1,0 +1,728 @@
+{
+  "n": 12,
+  "extract_ms": 840.222,
+  "llm_parse_ms": 29720.556,
+  "llm_parsed_context": "표 2.1.6 탈산방법 및 화학성분(%) (2021)\n\n[열 구성] 종류 | 재료기호 | 두께 t(mm) | 탈산방법 | 화학성분(%) (5): C | Si | Mn | P | S | Cu | Cr | Ni | Mo | Al(8) | Nb | V | Ti | N\n(원문 추출본에서 화학성분 열 머리글의 원소 기호가 소실되었습니다. 위 원소 기호는 값과 비고 내용으로 추정한 것이며 원문과 대조가 필요합니다.)\n\n[연강 (1)] (종류 셀: 연강 (1), 아래 5개 재료기호 행 병합)\n\n1. A | t≤50 | 킬드 및 세미킬드 (1) | C 0.21 이하 (3)(4) | Si 0.50 이하 | Mn 2.5×C 이상 (4) | P 0.035 이하 | S 0.035 이하 | 나머지 원소: -\n2. A | t>50 | 킬드 | 화학성분은 위 행과 병합 (동일)\n3. B | t≤50 | 킬드 및 세미킬드 | C 0.21 이하 (4) | Si 0.35 이하 | Mn 0.8 이상 (4)(6) | 나머지는 위 행과 병합 (P, S 등 동일)\n4. B | t>50 | 킬드 | 화학성분은 위 행과 병합 (동일)\n5. D | t≤25 | 킬드 | C 0.21 이하 (4) | Si 0.35 이하 | Mn 0.6 이상 (4)\n6. D | t>25 | 세립킬드 (2) | 화학성분은 위 행과 병합 | Al 0.015 이상 (2)(9)\n7. E | t≤100 | 킬드 및 세립킬드 | C 0.18 이하 (4) | Si 0.35 이하 | Mn 0.7 이상 (4) | Al 0.015 이상 (9)\n\n[고장력강 (13)] (종류 셀: 고장력강 (13), 아래 전체 행 병합)\n\n공통(병합 셀, AH 32 ~ EH 40 그룹): 두께 t≤100 | 탈산방법: 킬드 및 세립킬드 | C 0.18 이하 | Si 0.50 이하 | Mn 0.90∼1.60 (7) | P 0.035 이하 | S 0.035 이하 | Cu 0.35 이하 | Cr 0.20 이하 | Ni 0.40 이하 | Mo 0.08 이하 | Al 0.015 이상 (10) | Nb 0.02∼0.05 (10)(11) | V 0.05∼0.10 (10)(11) | Ti 0.02 이하 (11) | N -\n\n해당 재료기호: AH 32, DH32, EH 32, AH 36, DH36, EH 36, AH 40, DH40, EH 40 (두께 t≤100)\n\nFH 그룹(병합 셀): 재료기호 FH 32, FH 36, FH 40 | C 0.16 이하 | Mn 0.90∼1.60 | P 0.025 이하 | S 0.025 이하 | Ni 0.80 이하 | N 0.009 이하 (12) | 그 외 열은 위 고장력강 값과 병합 (동일)\n\n(비고)\n(1) 두께가 12.5 mm 이하인 형강에 대하여는 우리 선급의 승인을 받아 림드강으로 할 수 있다.\n(2) 두께가 25 mm를 넘을 경우에는 알루미늄 처리에 따른 세립킬드강으로 한다. 다만, 두께 50 mm까지는 우리 선급의 승인을 받아 킬드강으로 할 수 있다.\n(3) 형강의 경우 탄소의 함유량은 0.23 % 이하로 할 수 있다.\n(4) C+Mn/6의 함유량은 0.40 %를 넘어서는 안 된다.\n(5) 기타의 원소가 제강과정에서 첨가되는 경우 함량을 표시하여야 한다.\n(6) 킬드강으로서 충격시험을 하는 경우 Mn의 최소함유량을 0.60 %까지 감소시켜도 좋다.\n(7) 두께가 12.5 mm 이하인 강재에 대하여는 Mn의 최소함유량을 0.70 %까지 감소시켜도 좋다.\n(8) Al의 함유량은 산에 용해되는 Al의 양으로 하지만 전 함유량으로 하여도 좋다. 다만, 이 경우에는 Al의 전 함유량은 0.020 % 이상이어야 한다.\n(9) 우리 선급의 승인을 받아 기타의 세립화원소를 사용할 수 있다.\n(10) 강재에는 Al, Nb, V 또는 기타의 세립화 원소를 단독 또는 조합으로 함유시켜야 한다. 다만, 단독으로 함유시키는 경우에는 세립화 원소성분의 하한 규정을 적용하지만 조합하여 함유시키는 경우에는 각각의 세립화 원소성분의 하한 규정은 적용하지 아니한다.\n(11) Nb, V 및 Ti의 합계 함유량은 0.12 % 이하이어야 한다.\n(12) 알루미늄 처리에 따른 세립킬드강은 0.012 % 이하로 할 수 있다.\n(13) 고장력강이 TMCP로 제조되는 경우의 각 강재에 대한 탄소당량(Ceq.) 또는 균열감수성지수(Pcm)는 우리 선급이 적절하다고 인정하는 지침에 따른다. 【지침 참조】",
+  "summary": {
+    "table_only": {
+      "answer": 6,
+      "strict": 5,
+      "median_ms": 5.28
+    },
+    "ontology": {
+      "answer": 12,
+      "strict": 12,
+      "median_ms": 5.294
+    },
+    "llm": {
+      "answer": 4,
+      "strict": 4,
+      "median_ms": 4170.304
+    },
+    "llm_ontology": {
+      "answer": 12,
+      "strict": 12,
+      "median_ms": 3392.541
+    }
+  },
+  "cases": [
+    {
+      "id": "M01",
+      "question": "AH36급, 두께 12.49 mm, 킬드강 여부 False, 충격시험 실시 여부 False. 허용 가능한 Mn 최솟값(%)은?",
+      "query": {
+        "grade": "AH36",
+        "metric": "mn_min",
+        "thickness_mm": "12.49",
+        "killed": false,
+        "impact": false
+      },
+      "expected": {
+        "answer": 0.7,
+        "notes": [
+          7
+        ]
+      },
+      "table_only": {
+        "answer": 0.9,
+        "notes": [],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "0.90∼ 1.60(7)",
+        "linked_notes": [
+          7
+        ],
+        "context": "표 2.1.6, PDF 17쪽. AH36, 두께 12.49 mm. 표 본문: 0.90∼ 1.60(7). 유효 Mn 하한(%): 0.9. 적용 비고: []. ",
+        "answer_correct": false,
+        "strict_correct": false,
+        "ms": 8.780699999988428
+      },
+      "ontology": {
+        "answer": 0.7,
+        "notes": [
+          7
+        ],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "0.90∼ 1.60(7)",
+        "linked_notes": [
+          7
+        ],
+        "context": "표 2.1.6, PDF 17쪽. AH36, 두께 12.49 mm. 표 본문: 0.90∼ 1.60(7). 유효 Mn 하한(%): 0.7. 적용 비고: [7]. (7) 두께가 12.5 mm 이하인 강재에 대하여는 Mn의 최소함유량을 0.70 %까지 감소시켜도 좋다.",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 12.168100000053528
+      },
+      "llm": {
+        "response": "AH36, t=12.49 mm → t≤100 고장력강 행: Mn 0.90∼1.60. 비고 (7): 두께 12.5 mm 이하이므로 Mn 최솟값 0.70%까지 감소 가능. 12.49 ≤ 12.5 이므로 적용. 비고 (6)은 연강 B급에 대한 것이며 AH36에는 해당하지 않음. 비고 (10), (11)은 Mn 최솟값과 무관. 비고 (13)은 TMCP 제조 시에만 적용.\n\n{\"answer\": 0.70, \"notes\": [7]}",
+        "answer_correct": false,
+        "strict_correct": false,
+        "ms": 4247.47860000025
+      },
+      "llm_ontology": {
+        "response": "{\"answer\": 0.7, \"notes\": [7]}",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 2847.449400000187
+      }
+    },
+    {
+      "id": "M02",
+      "question": "AH36급, 두께 12.50 mm, 킬드강 여부 False, 충격시험 실시 여부 False. 허용 가능한 Mn 최솟값(%)은?",
+      "query": {
+        "grade": "AH36",
+        "metric": "mn_min",
+        "thickness_mm": "12.50",
+        "killed": false,
+        "impact": false
+      },
+      "expected": {
+        "answer": 0.7,
+        "notes": [
+          7
+        ]
+      },
+      "table_only": {
+        "answer": 0.9,
+        "notes": [],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "0.90∼ 1.60(7)",
+        "linked_notes": [
+          7
+        ],
+        "context": "표 2.1.6, PDF 17쪽. AH36, 두께 12.50 mm. 표 본문: 0.90∼ 1.60(7). 유효 Mn 하한(%): 0.9. 적용 비고: []. ",
+        "answer_correct": false,
+        "strict_correct": false,
+        "ms": 4.739500000141561
+      },
+      "ontology": {
+        "answer": 0.7,
+        "notes": [
+          7
+        ],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "0.90∼ 1.60(7)",
+        "linked_notes": [
+          7
+        ],
+        "context": "표 2.1.6, PDF 17쪽. AH36, 두께 12.50 mm. 표 본문: 0.90∼ 1.60(7). 유효 Mn 하한(%): 0.7. 적용 비고: [7]. (7) 두께가 12.5 mm 이하인 강재에 대하여는 Mn의 최소함유량을 0.70 %까지 감소시켜도 좋다.",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 5.137800000738935
+      },
+      "llm": {
+        "response": "AH36 고장력강은 Mn 0.90∼1.60이며, 두께 12.5 mm 이하이므로 비고 (7)에 따라 최소 0.70까지 감소 가능합니다. 비고 (6)은 일반 연강 B급에 해당하므로 적용되지 않습니다. 비고 (10)은 Mn과 무관합니다.\n\n{\"answer\": 0.70, \"notes\": [7]}",
+        "answer_correct": false,
+        "strict_correct": false,
+        "ms": 3906.9565999998304
+      },
+      "llm_ontology": {
+        "response": "{\"answer\": 0.7, \"notes\": [7]}",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 2858.7892999985343
+      }
+    },
+    {
+      "id": "M03",
+      "question": "AH36급, 두께 12.51 mm, 킬드강 여부 False, 충격시험 실시 여부 False. 허용 가능한 Mn 최솟값(%)은?",
+      "query": {
+        "grade": "AH36",
+        "metric": "mn_min",
+        "thickness_mm": "12.51",
+        "killed": false,
+        "impact": false
+      },
+      "expected": {
+        "answer": 0.9,
+        "notes": []
+      },
+      "table_only": {
+        "answer": 0.9,
+        "notes": [],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "0.90∼ 1.60(7)",
+        "linked_notes": [
+          7
+        ],
+        "context": "표 2.1.6, PDF 17쪽. AH36, 두께 12.51 mm. 표 본문: 0.90∼ 1.60(7). 유효 Mn 하한(%): 0.9. 적용 비고: []. ",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 6.4378999995824415
+      },
+      "ontology": {
+        "answer": 0.9,
+        "notes": [],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "0.90∼ 1.60(7)",
+        "linked_notes": [
+          7
+        ],
+        "context": "표 2.1.6, PDF 17쪽. AH36, 두께 12.51 mm. 표 본문: 0.90∼ 1.60(7). 유효 Mn 하한(%): 0.9. 적용 비고: []. ",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 5.244699999821023
+      },
+      "llm": {
+        "response": "AH36 고장력강, 두께 12.51 mm 이므로 12.5 mm 초과 → 비고 (7) 미적용. Mn 0.90∼1.60 → 최솟값 0.90. 비고 (6)은 연강 B에 해당하므로 적용 안 됨. 비고 (10)은 Mn과 무관.\n\n{\"answer\": 0.90, \"notes\": []}",
+        "answer_correct": false,
+        "strict_correct": false,
+        "ms": 3715.4755999999907
+      },
+      "llm_ontology": {
+        "response": "{\"answer\": 0.9, \"notes\": []}",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 2942.211400000815
+      }
+    },
+    {
+      "id": "M04",
+      "question": "FH36급, 두께 12.50 mm, 킬드강 여부 False, 충격시험 실시 여부 False. 허용 가능한 Mn 최솟값(%)은?",
+      "query": {
+        "grade": "FH36",
+        "metric": "mn_min",
+        "thickness_mm": "12.50",
+        "killed": false,
+        "impact": false
+      },
+      "expected": {
+        "answer": 0.9,
+        "notes": []
+      },
+      "table_only": {
+        "answer": 0.9,
+        "notes": [],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "0.90∼ 1.60",
+        "linked_notes": [],
+        "context": "표 2.1.6, PDF 17쪽. FH36, 두께 12.50 mm. 표 본문: 0.90∼ 1.60. 유효 Mn 하한(%): 0.9. 적용 비고: []. ",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 4.800700000487268
+      },
+      "ontology": {
+        "answer": 0.9,
+        "notes": [],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "0.90∼ 1.60",
+        "linked_notes": [],
+        "context": "표 2.1.6, PDF 17쪽. FH36, 두께 12.50 mm. 표 본문: 0.90∼ 1.60. 유효 Mn 하한(%): 0.9. 적용 비고: []. ",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 5.062299998826347
+      },
+      "llm": {
+        "response": "FH36: Mn 0.90∼1.60, 두께 12.5 mm 이하이므로 비고 (7) 적용 → 최소 0.70. 비고 (6)은 연강 B에 해당하므로 적용 안 됨.\n\n```json\n{\"answer\": 0.70, \"notes\": [7]}\n```",
+        "answer_correct": false,
+        "strict_correct": false,
+        "ms": 3306.179700000939
+      },
+      "llm_ontology": {
+        "response": "{\"answer\": 0.9, \"notes\": []}",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 6342.038700000558
+      }
+    },
+    {
+      "id": "M05",
+      "question": "DH32급, 두께 10 mm, 킬드강 여부 False, 충격시험 실시 여부 False. 허용 가능한 Mn 최솟값(%)은?",
+      "query": {
+        "grade": "DH32",
+        "metric": "mn_min",
+        "thickness_mm": "10",
+        "killed": false,
+        "impact": false
+      },
+      "expected": {
+        "answer": 0.7,
+        "notes": [
+          7
+        ]
+      },
+      "table_only": {
+        "answer": 0.9,
+        "notes": [],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "0.90∼ 1.60(7)",
+        "linked_notes": [
+          7
+        ],
+        "context": "표 2.1.6, PDF 17쪽. DH32, 두께 10 mm. 표 본문: 0.90∼ 1.60(7). 유효 Mn 하한(%): 0.9. 적용 비고: []. ",
+        "answer_correct": false,
+        "strict_correct": false,
+        "ms": 5.324300000211224
+      },
+      "ontology": {
+        "answer": 0.7,
+        "notes": [
+          7
+        ],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "0.90∼ 1.60(7)",
+        "linked_notes": [
+          7
+        ],
+        "context": "표 2.1.6, PDF 17쪽. DH32, 두께 10 mm. 표 본문: 0.90∼ 1.60(7). 유효 Mn 하한(%): 0.7. 적용 비고: [7]. (7) 두께가 12.5 mm 이하인 강재에 대하여는 Mn의 최소함유량을 0.70 %까지 감소시켜도 좋다.",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 5.343799999536714
+      },
+      "llm": {
+        "response": "DH32 Mn 범위는 0.90∼1.60이고, 비고 (7)에 따라 두께 12.5 mm 이하이면 최솟값이 0.70 %로 낮아집니다. 두께 10 mm이므로 (7)이 적용됩니다. 비고 (6)은 킬드강으로서 충격시험을 하는 경우에만 해당하는데, 이 조건은 충족되지 않아 제외합니다.\n\n{\"answer\": 0.70, \"notes\": [7]}",
+        "answer_correct": false,
+        "strict_correct": false,
+        "ms": 3942.3506000002817
+      },
+      "llm_ontology": {
+        "response": "{\"answer\": 0.7, \"notes\": [7]}",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 2860.2957999992213
+      }
+    },
+    {
+      "id": "M06",
+      "question": "B급, 두께 20 mm, 킬드강 여부 True, 충격시험 실시 여부 True. 허용 가능한 Mn 최솟값(%)은?",
+      "query": {
+        "grade": "B",
+        "metric": "mn_min",
+        "thickness_mm": "20",
+        "killed": true,
+        "impact": true
+      },
+      "expected": {
+        "answer": 0.6,
+        "notes": [
+          6
+        ]
+      },
+      "table_only": {
+        "answer": 0.8,
+        "notes": [],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "0.8이상 (4)(6)",
+        "linked_notes": [
+          4,
+          6
+        ],
+        "context": "표 2.1.6, PDF 17쪽. B, 두께 20 mm. 표 본문: 0.8이상 (4)(6). 유효 Mn 하한(%): 0.8. 적용 비고: []. ",
+        "answer_correct": false,
+        "strict_correct": false,
+        "ms": 5.057000000306289
+      },
+      "ontology": {
+        "answer": 0.6,
+        "notes": [
+          6
+        ],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "0.8이상 (4)(6)",
+        "linked_notes": [
+          4,
+          6
+        ],
+        "context": "표 2.1.6, PDF 17쪽. B, 두께 20 mm. 표 본문: 0.8이상 (4)(6). 유효 Mn 하한(%): 0.6. 적용 비고: [6]. (6) 킬드강으로서 충격시험을 하는 경우Mn의 최소함유량을 0.60 %까지 감소시켜도 좋다.",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 4.9515000009705545
+      },
+      "llm": {
+        "response": "{\"answer\": 0.6, \"notes\": [6]}",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 2827.6166999985435
+      },
+      "llm_ontology": {
+        "response": "{\"answer\": 0.6, \"notes\": [6]}",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 2831.2452000009216
+      }
+    },
+    {
+      "id": "M07",
+      "question": "B급, 두께 20 mm, 킬드강 여부 True, 충격시험 실시 여부 False. 허용 가능한 Mn 최솟값(%)은?",
+      "query": {
+        "grade": "B",
+        "metric": "mn_min",
+        "thickness_mm": "20",
+        "killed": true,
+        "impact": false
+      },
+      "expected": {
+        "answer": 0.8,
+        "notes": []
+      },
+      "table_only": {
+        "answer": 0.8,
+        "notes": [],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "0.8이상 (4)(6)",
+        "linked_notes": [
+          4,
+          6
+        ],
+        "context": "표 2.1.6, PDF 17쪽. B, 두께 20 mm. 표 본문: 0.8이상 (4)(6). 유효 Mn 하한(%): 0.8. 적용 비고: []. ",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 5.1652000001922715
+      },
+      "ontology": {
+        "answer": 0.8,
+        "notes": [],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "0.8이상 (4)(6)",
+        "linked_notes": [
+          4,
+          6
+        ],
+        "context": "표 2.1.6, PDF 17쪽. B, 두께 20 mm. 표 본문: 0.8이상 (4)(6). 유효 Mn 하한(%): 0.8. 적용 비고: []. ",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 7.009700000708108
+      },
+      "llm": {
+        "response": "B급, t=20 mm (≤50), 킬드강: Mn 0.8 이상 (4)(6). 비고 (6)에 따라 킬드강이면서 충격시험을 하는 경우 0.60까지 감소 가능하나, 충격시험을 실시하지 않으므로 적용되지 않음. 비고 (7)은 t≤12.5 mm 대상이므로 해당 없음. 비고 (4)는 C+Mn/6 ≤ 0.40 제한으로 상한 조건이며 Mn 최솟값을 바꾸지는 않지만 Mn 0.8 이상 항목에 붙은 비고로 적용됨.\n\n{\"answer\": 0.8, \"notes\": [4]}",
+        "answer_correct": false,
+        "strict_correct": false,
+        "ms": 4473.901999999725
+      },
+      "llm_ontology": {
+        "response": "{\"answer\": 0.8, \"notes\": []}",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 4278.36870000101
+      }
+    },
+    {
+      "id": "M08",
+      "question": "B급, 두께 20 mm, 킬드강 여부 False, 충격시험 실시 여부 True. 허용 가능한 Mn 최솟값(%)은?",
+      "query": {
+        "grade": "B",
+        "metric": "mn_min",
+        "thickness_mm": "20",
+        "killed": false,
+        "impact": true
+      },
+      "expected": {
+        "answer": 0.8,
+        "notes": []
+      },
+      "table_only": {
+        "answer": 0.8,
+        "notes": [],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "0.8이상 (4)(6)",
+        "linked_notes": [
+          4,
+          6
+        ],
+        "context": "표 2.1.6, PDF 17쪽. B, 두께 20 mm. 표 본문: 0.8이상 (4)(6). 유효 Mn 하한(%): 0.8. 적용 비고: []. ",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 5.236300001342897
+      },
+      "ontology": {
+        "answer": 0.8,
+        "notes": [],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "0.8이상 (4)(6)",
+        "linked_notes": [
+          4,
+          6
+        ],
+        "context": "표 2.1.6, PDF 17쪽. B, 두께 20 mm. 표 본문: 0.8이상 (4)(6). 유효 Mn 하한(%): 0.8. 적용 비고: []. ",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 7.521600000472972
+      },
+      "llm": {
+        "response": "B급, t=20 mm (≤50)이므로 Mn 0.8 이상이 기본값입니다. 비고 (6)은 킬드강으로서 충격시험을 하는 경우에만 0.60%까지 감소가 가능한데, 킬드강 여부가 False이므로 발동하지 않습니다. 비고 (7)은 두께 12.5 mm 이하에만 해당하므로 적용되지 않습니다. 비고 (4)는 Mn 값에 붙은 C+Mn/6 ≤ 0.40 제한으로, 하한 수치를 바꾸지 않지만 해당 칸에 표기된 실제 적용 비고입니다.\n\n{\"answer\": 0.8, \"notes\": [4]}",
+        "answer_correct": false,
+        "strict_correct": false,
+        "ms": 4587.194800000361
+      },
+      "llm_ontology": {
+        "response": "{\"answer\": 0.8, \"notes\": []}",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 5202.693900000668
+      }
+    },
+    {
+      "id": "M09",
+      "question": "B급, 두께 20 mm, 킬드강 여부 False, 충격시험 실시 여부 False. 허용 가능한 Mn 최솟값(%)은?",
+      "query": {
+        "grade": "B",
+        "metric": "mn_min",
+        "thickness_mm": "20",
+        "killed": false,
+        "impact": false
+      },
+      "expected": {
+        "answer": 0.8,
+        "notes": []
+      },
+      "table_only": {
+        "answer": 0.8,
+        "notes": [],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "0.8이상 (4)(6)",
+        "linked_notes": [
+          4,
+          6
+        ],
+        "context": "표 2.1.6, PDF 17쪽. B, 두께 20 mm. 표 본문: 0.8이상 (4)(6). 유효 Mn 하한(%): 0.8. 적용 비고: []. ",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 5.245199999990291
+      },
+      "ontology": {
+        "answer": 0.8,
+        "notes": [],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "0.8이상 (4)(6)",
+        "linked_notes": [
+          4,
+          6
+        ],
+        "context": "표 2.1.6, PDF 17쪽. B, 두께 20 mm. 표 본문: 0.8이상 (4)(6). 유효 Mn 하한(%): 0.8. 적용 비고: []. ",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 4.81739999850106
+      },
+      "llm": {
+        "response": "B급, t=20 (≤50): Mn 0.8 이상 (비고 4, 6). 킬드강 아님 → 비고 6 미적용(킬드강+충격시험일 때만). 비고 7은 두께 12.5 mm 이하 고장력강용이라 해당 없음. 비고 4는 C+Mn/6 ≤ 0.40 제한이지만 최솟값에는 영향 없음 → 최솟값 0.8.\n\n{\"answer\": 0.8, \"notes\": [4]}",
+        "answer_correct": false,
+        "strict_correct": false,
+        "ms": 4093.1289000000106
+      },
+      "llm_ontology": {
+        "response": "{\"answer\": 0.8, \"notes\": []}",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 2924.1976000012073
+      }
+    },
+    {
+      "id": "C01",
+      "question": "A급 20 mm 강판, C 0.21%, Mn 1.20%. 표 2.1.6의 C·Mn 조건을 모두 충족하는가?",
+      "query": {
+        "grade": "A",
+        "metric": "a_plate_carbon_mn",
+        "thickness_mm": "20",
+        "carbon_pct": "0.21",
+        "manganese_pct": "1.20"
+      },
+      "expected": {
+        "answer": false,
+        "notes": [
+          4
+        ]
+      },
+      "table_only": {
+        "answer": true,
+        "notes": [],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "C 0.21 이하 (3)(4); Mn 2.5×C 이상(4)",
+        "linked_notes": [
+          3,
+          4
+        ],
+        "context": "표 2.1.6, PDF 17쪽. A, 두께 20 mm. 표 본문: C 0.21 이하 (3)(4); Mn 2.5×C 이상(4). C·Mn 조건 충족 여부: True. 적용 비고: []. ",
+        "answer_correct": false,
+        "strict_correct": false,
+        "ms": 5.970700000034412
+      },
+      "ontology": {
+        "answer": false,
+        "notes": [
+          4
+        ],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "C 0.21 이하 (3)(4); Mn 2.5×C 이상(4)",
+        "linked_notes": [
+          3,
+          4
+        ],
+        "context": "표 2.1.6, PDF 17쪽. A, 두께 20 mm. 표 본문: C 0.21 이하 (3)(4); Mn 2.5×C 이상(4). C·Mn 조건 충족 여부: False. 적용 비고: [4]. (4) C+Mn/6의 함유량은 0.40 %를 넘어서는 안 된다.",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 7.623600000442821
+      },
+      "llm": {
+        "response": "{\"answer\": false, \"notes\": [4]}",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 5917.474300000322
+      },
+      "llm_ontology": {
+        "response": "{\"answer\": false, \"notes\": [4]}",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 4083.8714000001346
+      }
+    },
+    {
+      "id": "C02",
+      "question": "A급 20 mm 강판, C 0.20%, Mn 1.20%. 표 2.1.6의 C·Mn 조건을 모두 충족하는가?",
+      "query": {
+        "grade": "A",
+        "metric": "a_plate_carbon_mn",
+        "thickness_mm": "20",
+        "carbon_pct": "0.20",
+        "manganese_pct": "1.20"
+      },
+      "expected": {
+        "answer": true,
+        "notes": [
+          4
+        ]
+      },
+      "table_only": {
+        "answer": true,
+        "notes": [],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "C 0.21 이하 (3)(4); Mn 2.5×C 이상(4)",
+        "linked_notes": [
+          3,
+          4
+        ],
+        "context": "표 2.1.6, PDF 17쪽. A, 두께 20 mm. 표 본문: C 0.21 이하 (3)(4); Mn 2.5×C 이상(4). C·Mn 조건 충족 여부: True. 적용 비고: []. ",
+        "answer_correct": true,
+        "strict_correct": false,
+        "ms": 5.4763000007369556
+      },
+      "ontology": {
+        "answer": true,
+        "notes": [
+          4
+        ],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "C 0.21 이하 (3)(4); Mn 2.5×C 이상(4)",
+        "linked_notes": [
+          3,
+          4
+        ],
+        "context": "표 2.1.6, PDF 17쪽. A, 두께 20 mm. 표 본문: C 0.21 이하 (3)(4); Mn 2.5×C 이상(4). C·Mn 조건 충족 여부: True. 적용 비고: [4]. (4) C+Mn/6의 함유량은 0.40 %를 넘어서는 안 된다.",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 4.655200000343029
+      },
+      "llm": {
+        "response": "{\"answer\": true, \"notes\": [4]}",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 4416.97159999967
+      },
+      "llm_ontology": {
+        "response": "{\"answer\": true, \"notes\": [4]}",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 4240.3173000002425
+      }
+    },
+    {
+      "id": "C03",
+      "question": "A급 20 mm 강판, C 0.20%, Mn 1.21%. 표 2.1.6의 C·Mn 조건을 모두 충족하는가?",
+      "query": {
+        "grade": "A",
+        "metric": "a_plate_carbon_mn",
+        "thickness_mm": "20",
+        "carbon_pct": "0.20",
+        "manganese_pct": "1.21"
+      },
+      "expected": {
+        "answer": false,
+        "notes": [
+          4
+        ]
+      },
+      "table_only": {
+        "answer": true,
+        "notes": [],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "C 0.21 이하 (3)(4); Mn 2.5×C 이상(4)",
+        "linked_notes": [
+          3,
+          4
+        ],
+        "context": "표 2.1.6, PDF 17쪽. A, 두께 20 mm. 표 본문: C 0.21 이하 (3)(4); Mn 2.5×C 이상(4). C·Mn 조건 충족 여부: True. 적용 비고: []. ",
+        "answer_correct": false,
+        "strict_correct": false,
+        "ms": 5.314199999702396
+      },
+      "ontology": {
+        "answer": false,
+        "notes": [
+          4
+        ],
+        "table": "2.1.6",
+        "pdf_page": 17,
+        "cell": "C 0.21 이하 (3)(4); Mn 2.5×C 이상(4)",
+        "linked_notes": [
+          3,
+          4
+        ],
+        "context": "표 2.1.6, PDF 17쪽. A, 두께 20 mm. 표 본문: C 0.21 이하 (3)(4); Mn 2.5×C 이상(4). C·Mn 조건 충족 여부: False. 적용 비고: [4]. (4) C+Mn/6의 함유량은 0.40 %를 넘어서는 안 된다.",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 5.551599999307655
+      },
+      "llm": {
+        "response": "{\"answer\": false, \"notes\": [4]}",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 4646.109199999046
+      },
+      "llm_ontology": {
+        "response": "{\"answer\": false, \"notes\": [4]}",
+        "answer_correct": true,
+        "strict_correct": true,
+        "ms": 3842.870500000572
+      }
+    }
+  ]
+}
